@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=COLOSSUS Editor
+GenericName=Text Editor
+Comment=High-contrast monochrome text editor inspired by CRT aesthetics
+Exec=colossus-editor %F
+Terminal=false
+Type=Application
+Icon=editor
+Categories=Utility;TextEditor;Development;
+StartupNotify=true
+MimeType=text/plain;

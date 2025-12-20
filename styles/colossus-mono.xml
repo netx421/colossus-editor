@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="colossus-mono" name="COLOSSUS Monochrome" version="1.0">
+  <author>WillTech x421</author>
+  <_description>High-contrast monochrome syntax theme for COLOSSUS Editor</_description>
+
+  <!-- Greyscale palette -->
+  <color name="mono-bg"        value="#1A1A1A"/>
+  <color name="mono-bg-alt"    value="#222222"/>
+  <color name="mono-text"      value="#E4E4E4"/>
+  <color name="mono-strong"    value="#FFFFFF"/>
+  <color name="mono-bright"    value="#F2F2F2"/>
+  <color name="mono-mid"       value="#D0D0D0"/>
+  <color name="mono-soft"      value="#B0B0B0"/>
+  <color name="mono-dim"       value="#808080"/>
+  <color name="mono-dark"      value="#505050"/>
+  <color name="mono-deep"      value="#303030"/>
+  <color name="mono-black"     value="#000000"/>
+
+  <!-- Global Settings -->
+  <style name="text"
+         foreground="mono-text"
+         background="mono-bg"/>
+
+  <style name="selection"
+         foreground="mono-black"
+         background="mono-mid"/>
+
+  <style name="cursor"
+         foreground="mono-strong"/>
+
+  <style name="secondary-cursor"
+         foreground="mono-dim"/>
+
+  <!-- Black focus bar for current line -->
+  <style name="current-line"
+         background="mono-black"/>
+
+  <style name="line-numbers"
+         foreground="mono-dark"
+         background="mono-bg"/>
+
+  <style name="draw-spaces"
+         foreground="mono-dark"/>
+
+  <style name="background-pattern"
+         background="mono-bg-alt"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"
+         foreground="mono-bright"
+         background="mono-deep"
+         bold="true"/>
+
+  <style name="bracket-mismatch"
+         foreground="mono-strong"
+         background="mono-dark"
+         bold="true"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"
+         foreground="mono-soft"
+         background="mono-deep"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"
+         foreground="mono-black"
+         background="mono-mid"/>
+
+  <!-- Comments (darkest, faded) -->
+  <style name="def:comment"
+         foreground="mono-dim"/>
+
+  <style name="def:shebang"
+         foreground="mono-dim"
+         bold="true"/>
+
+  <style name="def:doc-comment-element"
+         italic="true"/>
+
+  <!-- Constants & strings (medium-bright) -->
+  <style name="def:constant"
+         foreground="mono-mid"/>
+
+  <style name="def:string"
+         foreground="mono-mid"/>
+
+  <style name="def:special-char"
+         foreground="mono-mid"/>
+
+  <style name="def:special-constant"
+         foreground="mono-mid"/>
+
+  <style name="def:floating-point"
+         foreground="mono-mid"/>
+
+  <!-- Identifiers (baseline text brightness) -->
+  <style name="def:identifier"
+         foreground="mono-text"/>
+
+  <!-- Statements / keywords (brightest) -->
+  <style name="def:statement"
+         foreground="mono-strong"
+         bold="true"/>
+
+  <!-- Types (very bright, bold) -->
+  <style name="def:type"
+         foreground="mono-bright"
+         bold="true"/>
+
+  <!-- Preprocessor / directives (slightly under types) -->
+  <style name="def:preprocessor"
+         foreground="mono-bright"/>
+
+  <!-- Errors / warnings / notes -->
+  <style name="def:error"
+         foreground="mono-strong"
+         background="mono-dark"
+         bold="true"/>
+
+  <style name="def:warning"
+         foreground="mono-strong"
+         background="mono-deep"/>
+
+  <style name="def:note"
+         background="mono-mid"
+         foreground="mono-dark"
+         bold="true"/>
+
+  <style name="def:underlined"
+         italic="true"
+         underline="single"/>
+
+  <!-- Diff / VCS-ish styles (still monochrome) -->
+  <style name="diff:added-line"
+         foreground="mono-mid"/>
+
+  <style name="diff:removed-line"
+         foreground="mono-soft"/>
+
+  <style name="diff:changed-line"
+         foreground="mono-soft"/>
+
+  <style name="diff:diff-file"
+         foreground="mono-bright"
+         bold="true"/>
+
+  <style name="diff:location"
+         foreground="mono-soft"/>
+
+  <style name="diff:special-case"
+         foreground="mono-strong"
+         bold="true"/>
+
+  <!-- LaTeX -->
+  <style name="latex:command"
+         foreground="mono-bright"
+         bold="true"/>
+
+  <style name="latex:include"
+         use-style="def:preprocessor"/>
+</style-scheme>
+
