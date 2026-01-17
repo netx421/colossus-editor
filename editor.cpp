@@ -1302,7 +1302,7 @@ void Editor::s_on_tab_width_8(GtkWidget*, gpointer ud) {
 int run_colossus_editor(int argc, char** argv) {
     GtkApplication* app = gtk_application_new(
         "tech.will.colossus_editor",
-        G_APPLICATION_HANDLES_OPEN
+        (GApplicationFlags)(G_APPLICATION_HANDLES_OPEN | G_APPLICATION_NON_UNIQUE)
     );
 
     g_signal_connect(app, "activate", G_CALLBACK(Editor::on_activate), nullptr);
